@@ -1,0 +1,626 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Chakra Petch', sans-serif;
+}
+img,svg{max-width:100%;height:auto}
+a{
+    flex-direction: column;
+}
+html, body {
+    height: 100%;
+}
+
+.header {
+    background-color: #0D0D0D;
+    min-height: 100vh;
+    padding-top: 120px; 
+}
+
+.header__container {
+    text-align: center;
+}
+
+.header__title {
+    font-size: 45px;
+    color: #FFFFFF;
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 400;
+}
+.header__img{
+    padding-top: 27px;
+}
+.header__name{
+    font-size: 60px;
+    font-family: Chakra Petch, sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+.header__name{
+    padding-top: 30px;
+}
+.header__button {
+    color: #FFFFFF;
+    width: 90%;
+    height: 62px;
+    border-radius: 16px;
+    background-color: #4C9CE2;
+    border: none;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+
+}
+
+.header__btn {
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    align-items: center;
+   padding-top: 160px;
+}
+.header__link{
+    height: 56px;
+    width: 100%;
+    background-color: #17212B;
+     margin-top: 62px;
+}
+.header__link a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%; 
+    height: 100%;
+    font-size: 14px;
+    text-decoration: none;
+    color: #7C82BA;
+    font-family: Nunito, sans-serif;
+}
+.header__text{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-family: Chakra Petch, sans-serif;
+    font-weight: bold;
+}
+.home{
+    background-color: #0D0D0D;
+    height: calc(100vh - 17px); /* Учитываем высоту навигации */
+    overflow-y: auto;
+    padding-bottom: 67px; 
+}
+.home__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #131313;
+    height: 52px;
+    border: 1px solid #222224;
+}
+.home__title{
+    font-size: 16px;
+    color: #FFFFFF;
+    font-family: Chakra Petch, sans-serif;
+}
+.home__group{
+    padding-left: 11px;
+}
+.home__text{
+    font-size: 60px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+    padding-top: 10px;
+}
+.home__banner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 29px;
+}
+.home__banner p{
+    font-size: 35px;
+    color: #FFFFFF;
+    padding-top: 10px;
+    font-weight: 100;
+    font-family: Chakra Petch, sans-serif;
+}
+.home__bamboo{
+    padding-top: 20px;
+}
+.home__price{
+    padding-top: 30px;
+}
+.home__community{
+    width: 90%;
+    height: 53px;
+    background-color: #131313;
+    border: 1px solid #222224;
+    border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+margin-bottom: 11px;
+margin-left: 20px;
+}
+.home__comunication{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-top: 100px;
+}
+.home__community h1{
+    font-size: 16px;
+    font-family: Chakra Petch, sans-serif;
+    color: #FFFFFF;
+}
+.community{
+    display: flex;
+    align-items: center;
+}
+.home__icon{
+   margin-left: 20px;
+   margin-right: 16px;
+}
+.home__arrow{
+    margin-right: 14px;
+}
+.home__navigation {
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    width: 100%;
+    height: 77px;
+    background-color: #131313;
+    border: 1px solid #222224;
+  margin-top: 30px;
+    text-align: center;
+    gap: 20px;
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+}
+
+.home__label {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 15px;
+}
+.home__label img{
+    padding-bottom: 6px;
+}
+.navigation__text {
+    color: #727272;
+    font-size: 9px;
+    text-align: center;
+}
+
+.leader{
+    background-color: #0D0D0D;
+    height: calc(100vh - 67px); /* Учитываем высоту навигации */
+    overflow-y: auto;
+    padding-bottom: 17px; 
+}
+.leader__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+}
+.leader__title{
+    padding-top: 25px;
+    font-size: 35px;
+    font-family: Chakra Petch, sans-serif;
+    color: #FFFFFF;
+   font-weight: 300;
+}
+.leader-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #A6A6A6;
+    border-radius: 16px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #FFFFFF;
+}
+
+.leader-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+.leader-plazka {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #19170C;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #3B3A30;
+}
+.leader-plazka2 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #161616;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #393939;
+}
+.leader-plazka3 {
+    width: 90%;
+    margin: 20px auto;
+    background-color: #16120E;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #393532;
+}
+.table-row:last-child {
+    border-bottom: none;
+}
+
+.leader-row  p{
+    font-size: 15px;
+    color: #000000;
+    font-family: Chakra Petch, sans-serif;
+}
+.leader__info {
+    flex-grow: 1;
+    margin-left: 8px;
+}
+
+.leader__name {
+    font-size: 15px;
+    color: #000000;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+}
+
+.leader__bamboo {
+    font-size: 15px;
+    color: #000000;
+    font-family: Chakra Petch, sans-serif;
+}
+.plazka__name{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+}
+.plazka__bamboo{
+    font-size: 15px;
+    color: #7F7F7F;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+}
+.friend{
+    background-color: #0D0D0D;
+    height: calc(100vh - 17px); /* Учитываем высоту навигации */
+    overflow-y: auto;
+    padding-bottom: 67px; 
+}
+.friend__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+  }
+  
+  .friend__header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+.friend__header h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.friend__header p{
+    font-size: 35px;
+  font-weight: 100;
+    font-family: Chakra Petch, sans-serif;
+    color: #FFFFFF;
+}
+.friend__header span{
+    font-weight: bold;
+}
+.friend__img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    padding-left: 15px;
+}
+.friend__btn{
+    color: #FFFFFF;
+    width: 90%;
+    height: 62px;
+    border-radius: 16px;
+    background-color: #4C9CE2;
+    border: none;
+    font-size: 16px;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    text-decoration: none; 
+margin-top: 55px;
+}
+.earn{
+    background-color: #0D0D0D;
+    height: calc(100vh - 17px); 
+    overflow-y: auto;
+    padding-bottom: 67px; 
+}
+.earn__banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.earn__banner h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+.earn__banner p{
+    font-size: 35px;
+    font-family: Chakra Petch, sans-serif;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+    display: flex;
+     justify-content: center;
+     margin-left: 30px;
+     font-weight: 200;
+}
+.toggle-container {
+    display: flex;
+    border: 1px solid #FFFFFF;
+    border-radius: 16px;
+    overflow: hidden;
+    width: 90%;
+    margin-top: 40px;
+  }
+  
+
+
+.toggle-option {
+    flex: 1;
+    padding: 10px 0;
+    text-align: center;
+    color: #ccc;
+    cursor: pointer;
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 14px;
+}
+
+.toggle-option.active {
+    background-color: #555;
+    color: white;
+    font-weight: bold;
+    border-radius: 16px ;
+    border: 1px solid #FFFFFF;
+}
+
+.toggle-option.passive {
+    background-color: #232323;
+    color: #ccc;
+    font-weight: 300;
+   
+}
+  .table-container {
+    width: 90%;
+    margin: 20px auto;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 60px;
+    border: 1px solid #323232;
+}
+
+.table-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #323232;
+}
+
+.table-row:last-child {
+    border-bottom: none;
+}
+
+
+.info {
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.name {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+}
+
+.bamboo {
+    font-size: 14px;
+    color: #ccc;
+    margin-top: 5px;
+    font-family: Chakra Petch, sans-serif;
+}
+
+.in-game-btn {
+    padding: 8px 16px;
+    background-color: #4C9CE2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 9px;
+    font-weight: bold;
+    font-family: Chakra Petch, sans-serif;
+    border: 1px solid #FFFFFF;
+}
+
+.in-game-btn:hover {
+    background-color: #1c86ee;
+}
+@media(max-height: 730px){
+.header__btn{
+    margin-top: -100px;
+}
+}
+@media(max-height: 635px){
+    .header__container{
+        margin-top: -100px;
+    }
+    }
+    @media(max-height: 735px){
+        .home__comunication{
+           margin-top: 10px;
+        }
+        }  
+        @media (max-height: 650px) {
+            .banner__img {
+                width: 180px;
+            }
+            .home__text{
+                font-size: 50px;
+            }
+        } 
+        @media (max-height: 620px) {
+            .home__banner p{
+              font-size: 20px;
+            }  
+            .home__text{
+                font-size: 40px;
+            }
+        } 
+        @media (max-height: 570px) {
+            .banner__img {
+                width: 150px;
+            }
+        } 
+        @media (max-height: 570px) {
+            .banner__img {
+                width: 110px;
+            }
+            .home__text{
+                font-size: 30px;
+            }
+            .home__banner p{
+                font-size: 15px;
+              }
+        } 
+        @media (max-height: 490px) {
+            .banner__img {
+                width: 90px;
+            }
+            
+        }
+        @media (max-height: 770px) {
+             .table-container{
+           margin-top: 20px;
+           }
+            .toggle-container{
+                margin-top: -20px;
+            }
+        }
+          @media (max-height: 770px) {
+             .table-container{
+           margin-top: 20px;
+           }
+            .toggle-container{
+                margin-top: -20px;
+            }
+        }
+        @media (max-height: 640px) {
+            .table-row{
+          padding: 10px;
+          }
+           .toggle-container{
+               margin-top: -20px;
+           }
+       }
+       @media (max-height: 600px) {
+        .bamboo{
+            font-size: 10px;
+        }
+        .name{
+            font-size: 12px;
+        }
+   }
+        @media (max-height: 700px) {
+          .earn__banner p{
+              font-size: 25px;
+          }
+          .earn__banner h1{
+            font-size: 30px;
+        }
+       }
+       @media (max-height: 590px) {
+        .earn__banner p{
+            font-size: 15px;
+        }
+        .earn__banner h1{
+          font-size: 25px;
+      }
+     }
+        @media (max-width: 320px) {
+            .navigation__text {
+                font-size: 7px; /* Уменьшаем текст на маленьких экранах */
+            }
+            .home__navigation {
+                gap: 14px;
+            }
+        }
+        
+        @media (max-width: 210px) {
+            .navigation__text {
+                font-size: 5px; /* Ещё меньше для совсем маленьких экранов */
+            }
+        }   
+        @media (max-height: 760px) {
+            .friend__header h1{
+                font-size: 25px;
+                font-weight: bold;
+                font-family: Chakra Petch, sans-serif;
+                color: #FFFFFF;
+                padding-bottom: 20px;
+            }
+            .friend__header p{
+                font-size: 25px;
+              font-weight: 100;
+                font-family: Chakra Petch, sans-serif;
+                color: #FFFFFF;
+            }
+         }  
+         @media (max-height: 700px) {
+            .friend__img{
+                width: 300px;
+                margin-top: -10px;
+            }
+         }
+         @media (max-height: 790px) {
+            .leader_img{
+                 margin-top: -40px;
+            }
+         }  
